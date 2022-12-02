@@ -2,6 +2,7 @@ from gillespie import Gillespie
 import matplotlib.pyplot as plt
 from parameters import initials, stoichiometry, t, deltas, alpha, beta, gamma
 
+# Loop over all deltas
 for delta in deltas:
 
     # a -> b, Propensity: alpha * a
