@@ -7,7 +7,7 @@ import imageio
 # Get the list of files in the figures directory
 files = os.listdir('./figures')
 # Order them by delta
-files.sort(key=lambda x: float(x[6:-4]))
+files.sort(key=lambda x: float(x[6:-4]), reverse=True)
 
 # Make a gif from the images using imageio
 images = []
